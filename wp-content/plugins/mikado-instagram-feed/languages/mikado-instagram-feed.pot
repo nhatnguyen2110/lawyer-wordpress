@@ -1,0 +1,71 @@
+# Copyright (C) 2021 Mikado Themes
+# This file is distributed under the same license as the Mikado Instagram Feed plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mikado Instagram Feed 2.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mikado-instagram-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-11-30T14:26:12+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mikado-instagram-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Mikado Instagram Feed"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds Instagram feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Mikado Themes"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:11
+msgid "Mikado Instagram Widget"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:12
+msgid "Display instagram images"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:23
+msgid "Title"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:28
+msgid "Number of photos"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:33
+msgid "Number of columns"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:35
+msgid "Two"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:36
+msgid "Three"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:37
+msgid "Four"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:38
+msgid "Six"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:39
+msgid "Nine"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:45
+msgid "Images Cache Time"
+msgstr ""

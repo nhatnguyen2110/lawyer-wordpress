@@ -1,0 +1,26 @@
+2023-08-19T14:27:26+00:00 CRITICAL Uncaught TypeError: array_unshift(): Argument #1 ($array) must be of type array, string given in /var/www/html/wp-content/plugins/simply-static/views/settings.php:243
+Stack trace:
+#0 /var/www/html/wp-content/plugins/simply-static/views/settings.php(243): array_unshift('http://localhos...', Array)
+#1 /var/www/html/wp-content/plugins/simply-static/views/layouts/admin.php(17): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/plugins/simply-static/src/class-ss-view.php(169): include('/var/www/html/w...')
+#3 /var/www/html/wp-content/plugins/simply-static/src/class-ss-plugin.php(477): Simply_Static\View->render()
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): Simply_Static\Plugin->display_settings_page('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/admin.php(259): do_action('simply-static_p...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/simply-static/views/settings.php on line 243
+
+2023-08-19T14:30:44+00:00 CRITICAL Uncaught TypeError: array_unshift(): Argument #1 ($array) must be of type array, string given in /var/www/html/wp-content/plugins/simply-static/views/settings.php:243
+Stack trace:
+#0 /var/www/html/wp-content/plugins/simply-static/views/settings.php(243): array_unshift('http://localhos...', Array)
+#1 /var/www/html/wp-content/plugins/simply-static/views/layouts/admin.php(17): include('/var/www/html/w...')
+#2 /var/www/html/wp-content/plugins/simply-static/src/class-ss-view.php(169): include('/var/www/html/w...')
+#3 /var/www/html/wp-content/plugins/simply-static/src/class-ss-plugin.php(477): Simply_Static\View->render()
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): Simply_Static\Plugin->display_settings_page('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/admin.php(259): do_action('simply-static_p...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/simply-static/views/settings.php on line 243
+
