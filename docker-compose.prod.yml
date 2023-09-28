@@ -3,7 +3,8 @@ version: "3"
 services:
   # Services line define which Docker images to run. In this case, it will be MySQL server and WordPress image.
   db:
-    image: nhatnguyen2110/wordpress-db-lawyer:v1
+    image: mysql:5.7
+    # image: mysql:5.7 indicates the MySQL database container image from Docker Hub used in this installation.
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: MyR00tMySQLPa$$5w0rD
