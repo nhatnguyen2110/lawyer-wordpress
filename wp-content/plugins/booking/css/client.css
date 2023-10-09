@@ -706,3 +706,7 @@ form.booking_form {
 .wpbc_debug:last-of-type{
     float:none;
 }
+/* customization */
+.front-end-booking .control-label {
+  color: #FFF;
+}
