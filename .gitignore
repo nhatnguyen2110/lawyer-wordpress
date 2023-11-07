@@ -37,3 +37,5 @@ wp-config.php
 # uncomment the next line
 #/wp-content/themes
 /wp-mysql
+/certbot
+/nginx
