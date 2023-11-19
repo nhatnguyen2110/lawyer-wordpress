@@ -29,7 +29,6 @@ services:
       WORDPRESS_DB_PASSWORD: Pa$$5w0rD
       WORDPRESS_DB_NAME: MyWordPressDatabaseName
     volumes:
-      - wordpress_data:/var/www/html
       - ./:/var/www/html
   nginx:
     container_name: nginx
